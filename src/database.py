@@ -3,7 +3,7 @@ from uuid import uuid4
 import datetime as dt
 from . import scripts
 
-mongodb = MongoClient('127.0.0.1', 27017)
+mongodb = MongoClient('mongodb+srv://armanarmani2089:<db_password>@qhaem.csloyhi.mongodb.net/?retryWrites=true&w=majority&appName=qhaem')
 
 db = mongodb['qhaem']
 
