@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>آموزش مجازی دبیرستان غیردولتی هوشمند مهرماندگار</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="../static/assets/img/logo/logo-icon.png"
+    />
+    <link rel="stylesheet" href="../static/assets/css/sweetalert2.min.css" />
+    <script src="../static/assets/js/sweetalert2.min.js"></script>
+  </head>
+  <body>
+    <script>
+      window.onload = function () {
+        Swal.fire({
+          title: "خوش آمدید",
+          icon: "success",
+          confirmButtonText: "ممنون",
+          customClass: {
+            popup: "custom-popup",
+            title: "custom-title",
+            confirmButton: "custom-button",
+          },
+          willClose: () => {
+            window.location.href = "/";
+          },
+        });
+      };
+    </script>
+    <style>
+      @font-face {
+        font-family: IRANSansWeb;
+        font-style: normal;
+        font-weight: normal;
+        src: url("../static/assets/fonts/IRANSansWeb/IRANSansWeb.eot");
+        src: url("../static/assets/fonts/IRANSansWeb/IRANSansWeb.eot?#iefix")
+            format("embedded-opentype"),
+          url("../static/assets/fonts/IRANSansWeb/IRANSansWeb.woff2")
+            format("woff2"),
+          url("../static/assets/fonts/IRANSansWeb/IRANSansWeb.woff")
+            format("woff"),
+          url("../static/assets/fonts/IRANSansWeb/IRANSansWeb.ttf")
+            format("truetype");
+      }
+
+      .custom-popup {
+        background-color: #00aeff;
+        border-radius: 20px;
+      }
+
+      .custom-title {
+        font-family: IRANSansWeb;
+        color: aliceblue;
+        font-size: 24px;
+      }
+
+      .custom-content {
+        font-family: IRANSansWeb;
+        color: aliceblue;
+        font-size: 18px;
+      }
+
+      .custom-button {
+        font-family: IRANSansWeb;
+        font-size: 20px;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+      }
+    </style>
+  </body>
+</html>

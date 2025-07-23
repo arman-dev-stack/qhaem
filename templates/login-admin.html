@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+{% include 'login_css.html' %}
+<body>
+    <div class="container">
+        <div class="form-box login">
+            <form action="" method="post">
+                <h1>ورود ادمین</h1>
+                <div class="input-box">
+                    <input type="text" name="username" placeholder="نام کاربری" required>
+                    <i class='bi bi-person-fill'></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" name="password" placeholder="رمز عبور" required>
+                    <i class='bi bi-key-fill'></i>
+                </div>
+                <button type="submit" class="btn">ورود</button>
+            </form>
+        </div>
+        <div class="toggle-box">
+            <div class="toggle-panel toggle-left">
+                <h1>سلام ، خوش آمدید!</h1>
+                <p>پنل ادمین شرکت قائم نیرو گستر</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

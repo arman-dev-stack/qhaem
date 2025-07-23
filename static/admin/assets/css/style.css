@@ -1,0 +1,17 @@
+.print-button {
+  border: 3px solid #142766;
+  border-radius: 10px;
+  color: #142766;
+  text-align: center;
+  width: 120px;
+  font-size: 20px;
+  padding: 3px;
+  margin-bottom: 25px;
+  transition: 200ms linear;
+}
+
+.print-button:hover {
+  background-color: #142766;
+  border: 0;
+  color: white;
+}

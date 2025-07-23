@@ -1,0 +1,88 @@
+<div
+  aria-hidden="false"
+  role="dialog"
+  tabindex="-1"
+  id="login-form"
+  class="modal leread-modal fade in"
+>
+  <div class="modal-dialog">
+    <div id="login-content" class="modal-content">
+      <div class="modal-header">
+        <button
+          aria-label="Close"
+          data-dismiss="modal"
+          class="close"
+          type="button"
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+        <h4 class="modal-title"><i class="fa fa-unlock-alt"></i>ورود</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <input type="text" placeholder="نام کاربری" class="form-control" />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              placeholder="رمز عبور"
+              class="form-control"
+            />
+          </div>
+          <div class="loginbox">
+            <label><input type="checkbox" /><span>بخاطر بسپار</span></label>
+            <button class="btn signin-btn" type="button">وارد شو</button>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer footer-box">
+        <a href="#">رمز عبور را فراموش کردید؟</a>
+        <span>حساب ندارید؟ <a id="signup-btn" href="#">عضو شوید.</a></span>
+      </div>
+    </div>
+    <div id="signup-content" class="modal-content">
+      <div class="modal-header">
+        <button
+          aria-label="Close"
+          data-dismiss="modal"
+          class="close"
+          type="button"
+        >
+          <span aria-hidden="true">×</span>
+        </button>
+        <h4 class="modal-title"><i class="fa fa-lock"></i>عضویت</h4>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <input placeholder="نام" class="form-control" />
+          </div>
+          <div class="form-group">
+            <input placeholder="نام کاربری" class="form-control" />
+          </div>
+          <div class="form-group">
+            <input placeholder="ایمیل" class="form-control" />
+          </div>
+          <div class="form-group">
+            <input
+              type="password"
+              placeholder="رمز عبور"
+              class="form-control"
+            />
+          </div>
+          <div class="signupbox">
+            <span>حساب دارید؟ <a id="login-btn" href="#">وارد شوید.</a></span>
+          </div>
+          <div class="loginbox">
+            <label
+              ><input type="checkbox" /><span>بخاطر بسپار</span
+              ><i class="fa"></i
+            ></label>
+            <button class="btn signin-btn" type="button">عضویت</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
